@@ -8,6 +8,11 @@
     "dev": "set NODE_ENV=development&&webpack",
     "build": "set NODE_ENV=production&&webpack"
   },
+  "browserslist": [
+    "last 2 version",
+    ">1%",
+    "IE 10"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fikyslsgg/webpack-5.git"
@@ -20,6 +25,9 @@
   },
   "homepage": "https://github.com/fikyslsgg/webpack-5#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.3",
     "html-loader": "^4.2.0",
