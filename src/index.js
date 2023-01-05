@@ -1,1 +1,2 @@
-console.log('Работает');
+import "./styles/index.scss";
+
